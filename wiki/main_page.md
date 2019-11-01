@@ -1,11 +1,7 @@
 ---
 redirect_from: "/"
 ---
+調べごとをした時のメモを置いておきます。  
+間違いがあったらご連絡いただければ！
 
-[Fileless malware](https://fuu32.github.io/_posts/Fileless_malware.md)
-
-2) Edit this page with your content
-
-
-NOTE:
-- do not delete "redirect_from" rule from the front matter of this file
+- [Fileless malware について](https://fuu32.github.io/Fileless_malware)
