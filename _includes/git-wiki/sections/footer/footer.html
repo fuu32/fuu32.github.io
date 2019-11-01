@@ -1,11 +1,16 @@
 <footer>
-    {% if site.inc_before_footer %}
-    {% include {{ site.inc_before_footer }} %}
-    {% endif %}
 
-    {% include git-wiki/components/copyrights/copyrights.html %}
+  <script src="https://utteranc.es/client.js" repo="fuu32/fuu32.github.io" issue-term="pathname" theme="github-light" crossorigin="anonymous" async>
+  </script>
+  {% if site.inc_before_footer %}
+  {% include {{ site.inc_before_footer }} %}
+  {% endif %}
 
-    {% if site.inc_after_footer %}
-    {% include {{ site.inc_after_footer }} %}
-    {% endif %}
+  {% include git-wiki/components/copyrights/copyrights.html %}
+
+  {% if site.inc_after_footer %}
+  {% include {{ site.inc_after_footer }} %}
+  {% endif %}
+
+
 </footer>
